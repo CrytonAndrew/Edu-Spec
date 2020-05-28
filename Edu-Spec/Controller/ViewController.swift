@@ -14,7 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-
+    @IBAction func RegisterPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func LoginPressed(_ sender: UIButton) {
+    }
+    
 }
 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>736717936180-euab9bb9de8b1atm27nq1vf3md663n6j.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.736717936180-euab9bb9de8b1atm27nq1vf3md663n6j</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBIRjfhFiw65HUxmCRPpWzNWucKiUqbg7A</string>
+	<key>GCM_SENDER_ID</key>
+	<string>736717936180</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.cryton.Edu-Spec</string>
+	<key>PROJECT_ID</key>
+	<string>edu-spec</string>
+	<key>STORAGE_BUCKET</key>
+	<string>edu-spec.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:736717936180:ios:cfadef5172e5a0e0b41c61</string>
+	<key>DATABASE_URL</key>
+	<string>https://edu-spec.firebaseio.com</string>
+</dict>
+</plist>
