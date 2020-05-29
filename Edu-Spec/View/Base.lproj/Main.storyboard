@@ -92,7 +92,7 @@
                                             <action selector="loginPressef:" destination="baF-3c-mOt" eventType="touchUpInside" id="fVp-Ph-aRH"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsp-n7-hBr">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsp-n7-hBr">
                                         <rect key="frame" x="0.0" y="186" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -167,10 +167,10 @@
                                             <action selector="registerPressed:" destination="tyx-PY-AF7" eventType="touchUpInside" id="Yfh-F2-F6w"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1al-Bc-PSt">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1al-Bc-PSt">
                                         <rect key="frame" x="0.0" y="310" width="334" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
+                                        <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -212,25 +212,11 @@
                     <view key="view" contentMode="scaleToFill" id="hYT-Y9-Qoh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zV-C8-Azd">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="1zV-C8-Azd" firstAttribute="top" secondItem="NL8-7e-QmH" secondAttribute="top" id="PvO-cJ-CnI"/>
-                            <constraint firstItem="NL8-7e-QmH" firstAttribute="bottom" secondItem="1zV-C8-Azd" secondAttribute="bottom" id="ZZb-S4-zqG"/>
-                            <constraint firstItem="1zV-C8-Azd" firstAttribute="leading" secondItem="NL8-7e-QmH" secondAttribute="leading" id="izk-Gd-WP4"/>
-                            <constraint firstItem="NL8-7e-QmH" firstAttribute="trailing" secondItem="1zV-C8-Azd" secondAttribute="trailing" id="twY-mG-PQv"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="NL8-7e-QmH"/>
                     </view>
                     <navigationItem key="navigationItem" id="tZV-0i-QQs">
-                        <barButtonItem key="rightBarButtonItem" id="hVf-QK-OLA">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" style="done" id="hVf-QK-OLA">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ne8-Um-afg">
                                 <rect key="frame" x="302" y="7" width="92" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -256,6 +242,9 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jhS-7Y-NcF">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="KnX-1Y-EdN"/>
                     </connections>

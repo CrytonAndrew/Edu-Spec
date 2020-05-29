@@ -1,0 +1,6 @@
+framework module Pods_Edu_Spec {
+  umbrella header "Pods-Edu-Spec-umbrella.h"
+
+  export *
+  module * { export * }
+}
