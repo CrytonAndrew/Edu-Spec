@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		07300225D79C49A97E67DB5C /* Pods_Edu_Spec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088A4B1D56991C97D3814FD0 /* Pods_Edu_Spec.framework */; };
+		43072A152498DBCD003C35F1 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43072A142498DBCD003C35F1 /* TodoViewController.swift */; };
+		43072A172498DBE6003C35F1 /* CountDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43072A162498DBE6003C35F1 /* CountDownViewController.swift */; };
+		43072A1B2498E0CF003C35F1 /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43072A1A2498E0CF003C35F1 /* MainTabController.swift */; };
 		43E82432247932C6001C5CCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E82431247932C6001C5CCD /* AppDelegate.swift */; };
 		43E82434247932C6001C5CCD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E82433247932C6001C5CCD /* SceneDelegate.swift */; };
 		43E82436247932C6001C5CCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E82435247932C6001C5CCD /* ViewController.swift */; };
@@ -20,12 +23,14 @@
 		43E8244C24793CE0001C5CCD /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8244B24793CE0001C5CCD /* Utilities.swift */; };
 		43E82451247A5B4E001C5CCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 43E82450247A5B4E001C5CCD /* GoogleService-Info.plist */; };
 		43E82453247A81C2001C5CCD /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 43E82452247A81C2001C5CCD /* video.mp4 */; };
-		43E82458247A8DE2001C5CCD /* background_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 43E82457247A8DE2001C5CCD /* background_3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		088A4B1D56991C97D3814FD0 /* Pods_Edu_Spec.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Edu_Spec.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		412EE9FBC4A90567FFDAA4C6 /* Pods-Edu-Spec.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edu-Spec.debug.xcconfig"; path = "Target Support Files/Pods-Edu-Spec/Pods-Edu-Spec.debug.xcconfig"; sourceTree = "<group>"; };
+		43072A142498DBCD003C35F1 /* TodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
+		43072A162498DBE6003C35F1 /* CountDownViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownViewController.swift; sourceTree = "<group>"; };
+		43072A1A2498E0CF003C35F1 /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
 		43E8242E247932C6001C5CCD /* Edu-Spec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Edu-Spec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43E82431247932C6001C5CCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43E82433247932C6001C5CCD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,7 +45,6 @@
 		43E8244B24793CE0001C5CCD /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		43E82450247A5B4E001C5CCD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		43E82452247A81C2001C5CCD /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
-		43E82457247A8DE2001C5CCD /* background_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_3.jpg; sourceTree = "<group>"; };
 		8696FFBC7D8FCD9FA7CC651B /* Pods-Edu-Spec.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edu-Spec.release.xcconfig"; path = "Target Support Files/Pods-Edu-Spec/Pods-Edu-Spec.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,6 +60,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43072A1C2498F120003C35F1 /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				43072A142498DBCD003C35F1 /* TodoViewController.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		43072A1D2498F13B003C35F1 /* CountDown */ = {
+			isa = PBXGroup;
+			children = (
+				43072A162498DBE6003C35F1 /* CountDownViewController.swift */,
+			);
+			path = CountDown;
+			sourceTree = "<group>";
+		};
+		43072A1E2498F161003C35F1 /* Sign-Up */ = {
+			isa = PBXGroup;
+			children = (
+				43E82435247932C6001C5CCD /* ViewController.swift */,
+				43E8244524793322001C5CCD /* RegisterViewController.swift */,
+				43E824472479333D001C5CCD /* LoginViewController.swift */,
+			);
+			path = "Sign-Up";
+			sourceTree = "<group>";
+		};
+		43072A1F2498F17E003C35F1 /* HomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				43E8244924793350001C5CCD /* HomeViewController.swift */,
+			);
+			path = HomeMenu;
+			sourceTree = "<group>";
+		};
+		43072A202498F191003C35F1 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				43072A1A2498E0CF003C35F1 /* MainTabController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		43E82425247932C6001C5CCD = {
 			isa = PBXGroup;
 			children = (
@@ -110,10 +156,11 @@
 		43E8244F24793D20001C5CCD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				43E82435247932C6001C5CCD /* ViewController.swift */,
-				43E8244524793322001C5CCD /* RegisterViewController.swift */,
-				43E824472479333D001C5CCD /* LoginViewController.swift */,
-				43E8244924793350001C5CCD /* HomeViewController.swift */,
+				43072A1E2498F161003C35F1 /* Sign-Up */,
+				43072A1F2498F17E003C35F1 /* HomeMenu */,
+				43072A1C2498F120003C35F1 /* Todo */,
+				43072A1D2498F13B003C35F1 /* CountDown */,
+				43072A202498F191003C35F1 /* General */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -122,7 +169,6 @@
 			isa = PBXGroup;
 			children = (
 				43E82452247A81C2001C5CCD /* video.mp4 */,
-				43E82457247A8DE2001C5CCD /* background_3.jpg */,
 			);
 			path = Media;
 			sourceTree = "<group>";
@@ -208,7 +254,6 @@
 				43E8243E247932CB001C5CCD /* LaunchScreen.storyboard in Resources */,
 				43E82453247A81C2001C5CCD /* video.mp4 in Resources */,
 				43E82451247A5B4E001C5CCD /* GoogleService-Info.plist in Resources */,
-				43E82458247A8DE2001C5CCD /* background_3.jpg in Resources */,
 				43E8243B247932CB001C5CCD /* Assets.xcassets in Resources */,
 				43E82439247932C6001C5CCD /* Main.storyboard in Resources */,
 			);
@@ -280,11 +325,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43072A152498DBCD003C35F1 /* TodoViewController.swift in Sources */,
 				43E82436247932C6001C5CCD /* ViewController.swift in Sources */,
+				43072A1B2498E0CF003C35F1 /* MainTabController.swift in Sources */,
 				43E82432247932C6001C5CCD /* AppDelegate.swift in Sources */,
 				43E8244C24793CE0001C5CCD /* Utilities.swift in Sources */,
 				43E82434247932C6001C5CCD /* SceneDelegate.swift in Sources */,
 				43E824482479333D001C5CCD /* LoginViewController.swift in Sources */,
+				43072A172498DBE6003C35F1 /* CountDownViewController.swift in Sources */,
 				43E8244624793322001C5CCD /* RegisterViewController.swift in Sources */,
 				43E8244A24793350001C5CCD /* HomeViewController.swift in Sources */,
 			);
